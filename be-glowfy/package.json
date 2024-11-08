@@ -1,0 +1,26 @@
+{
+  "name": "glowfy-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^7.11.2",
+    "@hapi/hapi": "^21.3.9",
+    "@hapi/inert": "^7.1.0",
+    "@hapi/joi": "^17.1.1",
+    "@tensorflow/tfjs-node": "^4.19.0",
+    "bcrypt": "^5.1.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.10.0",
+    "path": "^0.12.7"
+  }
+}
